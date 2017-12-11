@@ -21,8 +21,9 @@ before_script:
 - npm install -g @angular/cli
 - npm install materialize-css
 - npm install jquery
-- npm install karma
+- npm install -g karma
 - npm install angularfire2 firebase
 - npm install -g typescript
-
 - npm install
+
+script: karma start config/karma.conf.js --single-run
