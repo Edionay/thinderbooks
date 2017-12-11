@@ -22,4 +22,5 @@ before_script:
 - npm install materialize-css
 - npm install jquery
 - npm install karma
+- npm install angularfire2 firebase
 - npm install
