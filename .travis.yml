@@ -23,4 +23,6 @@ before_script:
 - npm install jquery
 - npm install karma
 - npm install angularfire2 firebase
+- npm install -g typescript
+
 - npm install
